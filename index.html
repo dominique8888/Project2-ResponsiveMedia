@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <div class="site-title">NYC Landmarks</div>
+    </header>
+
+    <link rel="stylesheet" href="style.css">
+
+    <main>
+        <h1>NYC Landmarks Virtual Tour</h1>
+        <p class="intro">This site highlights some interesting landmarks across New
+            York City's five boroughs.</p>
+        <!-- Featured image using <picture> -->
+        <div class="videowrapper ratio-16-9">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/15aY-JcGB-c?si=FEJS7mvH_UaCP_JC"
+                title="YouTube video player" frameborder= "0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+            <div class="videowrapper ratio-16-9">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/8jrtg1jNnNs?si=nQPvcQhHr63Mt4mQ"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe><!--  -->
+            </div>
+
+        </div>
+        <section class="Featured-image">
+
+            <h2>Featured Landmark</h2>
+
+            <picture>
+                <!-- Large screens (desktop/tablet) -->
+                <source media="(min-width: 645px)"
+                    srcset="images/square/pexels-mora-versio-2150673251-34091093_square.jpg">
+
+                <!-- Small screens (mobile) -->
+                <source media="(max-width: 644px)"
+                    srcset="images/square/pexels-mora-versio-2150673251-34091093_square.jpg">
+
+                <!-- Fallback image -->
+                <img src="images/square/pexels-mora-versio-2150673251-34091093_square.jpg"
+                    alt="Statue of Liberty in New York City, New York">
+            </picture>
+
+
+        </section>
+
+        <div class="landmark-grid">
+            <figure>
+                <img src="images/square/pexels-kelsey-caroline-774981359-19122990_square.jpg"
+                    alt="Wonder Wheel at Deno's Wonder Wheel Amusement Park in Brooklyn, New York">
+                <figcaption><a
+                        href="https://www.pexels.com/photo/wonder-wheel-at-denos-wonder-wheel-amusement-park-in-brooklyn-new-york-19122990/">Photo
+                        by Kelsey Caroline</a></figcaption>
+            </figure>
+
+            <figure>
+                <img src="images/square/pexels-loquellano-12404963_square.jpg"
+                    alt="Roosevelt Island Tramway in New York City, New York">
+                <figcaption><a
+                        href="https://www.pexels.com/photo/roosevelt-island-tramway-in-new-york-city-new-york-12404963/">Photo
+                        by Loquellano</a></figcaption>
+            </figure>
+            <figure>
+                <img src="images/square/pexels-malcolmhill-12360516_square.jpg"
+                    alt="Yankee Stadium in New York City, New York">
+                <figcaption><a
+                        href="https://www.pexels.com/photo/yankee-stadium-in-new-york-city-new-york-12360516/">Photo by
+                        Malcolm Hill</a></figcaption>
+            </figure>
+
+            <figure>
+                <img src="images/square/pexels-mora-versio-2150673251-34091093_square.jpg"
+                    alt="Statue of Liberty in New York City, New York">
+                <figcaption><a
+                        href="https://www.pexels.com/photo/statue-of-liberty-in-new-york-city-new-york-2150673251-34091093/">Photo
+                        by Mora Versio</a></figcaption>
+            </figure>
+
+            <figure>
+                <img src="images/square/pexels-tracehudson-2424391_square.jpg"
+                    alt=" the Empire State Building in New York City, New York">
+                <figcaption><a
+                        href="https://www.pexels.com/photo/statue-of-liberty-in-new-york-city-new-york-2150673251-34091093/">Photo
+                        by Trace Hudson</a></figcaption>
+            </figure>
+
+            <figure>
+                <img src="images/square/praswin-prakashan-YOCN1a1m_dg-unsplash_square.jpg"
+                    alt="the Staten Island Ferry in Staten Island, New York">
+                <figcaption><a
+                        href="https://unsplash.com/photos/a-large-ferry-boat-in-a-body-of-water-YOCN1a1m_dg">Photo by
+                        Praswin Prakashan</a></figcaption>
+            </figure>
+        </div>
+
+
+    </main>
+
+    <footer>
+        <p>Site by Dominique Ortiz</p>
+    </footer>
+
+</body>
+
+</html>
