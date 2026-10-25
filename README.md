@@ -1,2 +1,3 @@
-# mmp240-project2
+# Project2-ResponsiveMedia
+
 Project 2 is media-focused.
