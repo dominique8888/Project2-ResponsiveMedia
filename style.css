@@ -3,6 +3,10 @@
 body{
   background-color: #f4f6f8;
 }
+body {
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+}
+
 
 img, video{
   max-width: 100%;
