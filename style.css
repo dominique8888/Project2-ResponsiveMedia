@@ -119,3 +119,91 @@ You can change the 100px as needed, just change it in both padding-bottom and wi
 .card-image img{
   display:block;
 }
+
+
+/*-------------------------------------------------
+Landmark Pages layout
+------------------------------------------------- */
+
+.directions-links {
+list-style: none;
+display: flex;
+flex-wrap: wrap;
+gap:var(--space-4);  
+padding: 0;
+margin: 0;
+border-radius: var(--border-radius);
+}
+
+
+
+
+.directions-link{
+display:flex;
+padding: var(--space-3);
+background-color: var(--action-color);
+color: var(--button-text);
+text-align: center;
+}
+
+.directions-link:hover{
+  background-color: var(--action-color-hover);
+  color: var(--button-text-hover);
+  text-decoration: none;
+}
+
+*/------------------------
+page area styling
+------------------------*/
+
+.landmark-information, .landmark-more-img, .landmark-intro{
+ margin: var(--space-8) 0;
+}
+ .landmark-intro{
+margin-top: 0;
+ }
+
+ #pagination{
+  display: flex;
+  justify-content: space-between;
+
+
+  @media (min-width: 600px){
+      /* this applies to mobile in landscape and some tablets in portrait */
+.landmark-more-img{
+  display-grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--space-6);
+}
+}/*   end min-width 600 */
+
+  
+
+@media (min-width: 900px){
+      /* this applies to tablets */
+ .landmark-intro{
+  display-grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-6);
+ }
+ .landmark-information{
+  display-grid;
+  grid-template-columns: 2fr 1fr;
+  gap: var(--space-6);
+}
+.landmark-more-img{
+  display-grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--space-6);
+}/*   end min-width 900 */
+
+@media (min-width: 1200px){
+      /* this applies average laptops */
+
+}/*   end min-width 1200 */
+
+  
+@media (min-width: 1800px){
+      /* this applies to very large screens */
+
+}/*   end min-width 1800 */
