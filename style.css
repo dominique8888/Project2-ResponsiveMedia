@@ -16,6 +16,15 @@ h1, h2, h3,
   font-family: 'DM Serif Display', Georgia, serif;
 }
 
+h1 {
+  color: #392D44;
+}
+
+.landmark-about h2,
+.landmark-about h3 {
+  color: #392D44;
+}
+
 
 img, video{
   max-width: 100%;
@@ -152,8 +161,20 @@ margin: 0;
 border-radius: var(--border-radius);
 }
 
+.landmark-directions {
+  background-color: #329954;
+  padding: 1rem;
+  margin: 1rem 0;
+  color: #fff;
+}
 
+.landmark-directions a {
+  color: inherit;
+}
 
+.landmark-directions h3 {
+  font-weight: 400;
+}
 
 .directions-link{
 display:flex;
@@ -175,6 +196,10 @@ page area styling
 
 .landmark-hero {
   margin: 0 0 1.5rem;
+  border: 2px solid #392D44;
+  padding: 1rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(57, 45, 68, 0.18);
 }
 
 .landmark-hero img {
