@@ -4,15 +4,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>NYC Landmarks</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <header>
         <div class="site-title">NYC Landmarks</div>
+        <nav class="site-navigation" aria-label="Main navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li class="dropdown">
+                    <button type="button" class="dropdown__title" aria-controls="landmark-menu">
+                        Landmarks
+                    </button>
+                    <ul class="dropdown__menu" id="landmark-menu">
+                        <li><a href="landmark-wonder.html">Wonder Wheel</a></li>
+                        <li><a href="landmark-tram.html">Roosevelt Island Tramway</a></li>
+                        <li><a href="landmark-yankee.html">Yankee Stadium</a></li>
+                        <li><a href="landmark-liberty.html">Statue of Liberty</a></li>
+                        <li><a href="landmark-empire.html">Empire State Building</a></li>
+                        <li><a href="landmark-ferry.html">Staten Island Ferry</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
     </header>
-
-    <link rel="stylesheet" href="style.css">
 
     <main>
         <section class="introduction">
@@ -21,17 +38,17 @@
             <p>New York City is filled with landmarks, tourist attractions and historic sites dating from before it was
                 known as New York City to more recent additions. Click through this site to explore!</p>
             <!-- Featured image using <picture> -->
-            <div class="videowrapper ratio-16-9">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/15aY-JcGB-c?si=FEJS7mvH_UaCP_JC"
-                    title="YouTube video player" frameborder="0"
+            <div class="videoWrapper ratio-16-9">
+                <iframe src="https://www.youtube.com/embed/15aY-JcGB-c"
+                    title="The Five Boroughs of New York City: A Virtual Tour of the City's Diversity" frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                     referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                <div class="videowrapper ratio-16-9">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/8jrtg1jNnNs?si=nQPvcQhHr63Mt4mQ"
-                        title="YouTube video player" frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe><!--  -->
-                </div>
+            </div>
+            <div class="videoWrapper ratio-16-9">
+                <iframe src="https://www.youtube.com/embed/8jrtg1jNnNs"
+                    title="22 Hidden Gems in New York City That Even Locals Miss" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             </div>
         </section>
 

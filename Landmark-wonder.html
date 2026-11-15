@@ -5,14 +5,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Wonder Wheel | NYC Landmarks</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body id="page">
     <header>
         <div class="site-title">NYC Landmarks</div>
+        <nav class="site-navigation" aria-label="Main navigation">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li class="dropdown">
+              <button type="button" class="dropdown__title" aria-controls="landmark-menu">
+                Landmarks
+              </button>
+              <ul class="dropdown__menu" id="landmark-menu">
+                <li><a href="landmark-wonder.html">Wonder Wheel</a></li>
+                <li><a href="landmark-tram.html">Roosevelt Island Tramway</a></li>
+                <li><a href="landmark-yankee.html">Yankee Stadium</a></li>
+                <li><a href="landmark-liberty.html">Statue of Liberty</a></li>
+                <li><a href="landmark-empire.html">Empire State Building</a></li>
+                <li><a href="landmark-ferry.html">Staten Island Ferry</a></li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
     </header>
-
-    <link rel="stylesheet" href="style.css">
 
     <main>
      <!-- INTRO -->
@@ -76,7 +93,6 @@
     <figcaption><a href="https://www.pexels.com/photo/colorful-summer-day-at-coney-island-amusement-park-30911091/">Photo by Dimitry Mak</a></figcaption>
   </figure>
 </div>
-
 <!-- PREV/NEXT BUTTONS -->
 <nav id="pagination" aria-label="Landmark navigation">
   <a class="btn" rel="prev" href="landmark-ferry.html">← Previous</a>
