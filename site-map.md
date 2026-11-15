@@ -10,7 +10,7 @@ All HTML pages are in the same folder. The home page links to each landmark page
 | Statue of Liberty | `landmark-liberty.html` |
 | Empire State Building | `landmark-empire.html` |
 | Staten Island Ferry | `landmark-ferry.html` |
-| Wonder Wheel | `landmark-wonder.html` |
+| Wonder Wheel | `Landmark-wonder.html` |
 | Yankee Stadium | `landmark-yankee.html` |
 | Roosevelt Island Tramway | `landmark-tram.html` |
 
